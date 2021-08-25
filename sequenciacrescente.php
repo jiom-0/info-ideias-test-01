@@ -1,5 +1,6 @@
 <html>
 </body>
+<h1>
 <?php
 	/*4 - Função SequenciaCrescente($array)
 	Receba como parametro um array de números inteiros e responda TRUE or FALSE.
@@ -231,5 +232,6 @@
 	}else{ echo " false"."</br>";}
 
 ?>
+</h1>
 </body>
 </html>
