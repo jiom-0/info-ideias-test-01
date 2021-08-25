@@ -7,12 +7,12 @@
 	Se o argumento for negativo, a função deverá retornar o valor zero.
 	*/
 	
-	function PrimoInferior($primo){
+	function PrimoInferior($num){
 		$resp=false;
 		for($x=$primo-1;$x>1;$x--){
 			$resp=$x;
-			for($num=$x-1;$num>1;$num--){
-				if($x%$num==0){
+			for($a=$x-1;$a>1;$a--){
+				if($x%$a==0){
 					$resp=false;
 					break;
 				}
